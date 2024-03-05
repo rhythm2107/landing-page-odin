@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background: #a1c3ff;
+    background: #fff;
 }
 
 .navbar {
@@ -138,11 +138,15 @@ ul {
 .boxes .container .box img {
     width: 200px;
     height: 200px;
+    background-color: gray;
+    border: 3px solid purple;
+    margin: 0 20px;
 }
 
 .boxes .container {
     display: flex;
     justify-content: center;
-    gap: 22px;
     height: 400px;
+    border: 3px solid orange;
+    align-items: center;
 }
