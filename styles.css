@@ -209,7 +209,6 @@ ul {
     display: flex;
     align-items: center;
     height: 100%;
-    border: 3px solid purple;
 }
 
 .container .action {
@@ -218,7 +217,6 @@ ul {
     background-color: #3882F6;
     padding: 30px 120px;
     width: 1100px;
-    border: 4px solid yellow;
     justify-content: space-between;
 }
 
@@ -247,4 +245,23 @@ ul {
     background-color: rgba(9, 48, 9, 0.753);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transform: scale(1.08);
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer .container .footer-text {
+    align-self: center;
+}
+
+.footer-text span {
+    margin: 0 6px;
 }
