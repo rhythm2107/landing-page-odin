@@ -120,3 +120,17 @@ ul {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transform: scale(1.08);
 }
+
+.info {
+    background-color: white;
+}
+
+.info .container {
+    color: #1F2937;
+    font-weight: bolder;
+    background-color: white;
+    font-size: 28px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
