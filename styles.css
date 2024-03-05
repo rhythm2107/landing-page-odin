@@ -150,3 +150,10 @@ ul {
     border: 3px solid orange;
     align-items: center;
 }
+
+.boxes .container .box {
+    display: flex;
+    border: 1px solid green;
+    flex-wrap: wrap;
+    justify-content: center;
+}
