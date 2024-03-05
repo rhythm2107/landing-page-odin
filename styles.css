@@ -90,6 +90,10 @@ ul {
     line-height: 1.2;
 }
 
+.hero .container h1 span {
+    color: rgb(41, 155, 41);
+}
+
 .hero .container p {
     font-size: 18px;
     line-height: 1.2;
@@ -113,7 +117,7 @@ ul {
 }
 
 .hero .container button:hover, button:focus, button:active {
-    background-color: rgba(14, 77, 14, 0.733);
+    background-color: rgba(41, 155, 41, 0.753);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
 }
