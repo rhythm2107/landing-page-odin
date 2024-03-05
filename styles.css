@@ -157,3 +157,12 @@ ul {
     justify-content: center;
     color: #1F2937;
 }
+
+.boxes .container .box h3 {
+    margin: 10px 0 0 0;
+}
+
+.boxes .container .box p {
+    text-align: center;
+    padding: 0 10px;
+}
