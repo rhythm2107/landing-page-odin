@@ -134,3 +134,15 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+.boxes .container .box img {
+    width: 200px;
+    height: 200px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    height: 400px;
+}
