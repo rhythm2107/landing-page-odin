@@ -75,14 +75,14 @@ ul {
     display: flex;
     background-color: #1F2937;
     height: 500px;
-    border: 2px solid yellow;
     align-items: center;
 }
 
 .hero .container img {
-    width: 50%;
-    height: 50%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 55%;
+    height: 55%;
+    box-shadow: rgba(16, 122, 1, 0.35) 0px 5px 15px;
+    border: 2px solid black;
 }
 
 .hero .container h1 {
@@ -94,4 +94,26 @@ ul {
     font-size: 18px;
     line-height: 1.2;
     margin-right: 50px;
+}
+
+.hero .container button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 8px 22px;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 2px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.hero .container button:hover, button:focus, button:active {
+    background-color: rgba(14, 77, 14, 0.733);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
 }
