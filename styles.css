@@ -132,11 +132,7 @@ ul {
     background-color: fff;
     font-size: 28px;
     margin-top: 30px;
-
-    
     text-align: center;
-
-  
 }
 
 .boxes .container .box img {
@@ -177,4 +173,29 @@ ul {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transform: scale(1.08);
     transition-duration: 0.3s;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 400px;
+    font-size: 32px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+}
+
+
+.quote .container .signature {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bolder;
+    
 }
