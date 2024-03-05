@@ -128,11 +128,14 @@ ul {
 .info .container {
     color: #1F2937;
     font-weight: bolder;
-    background-color: white;
+    background-color: fff;
     font-size: 28px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+    margin-top: 30px;
+
+    
+    text-align: center;
+
+  
 }
 
 .boxes .container .box img {
@@ -156,6 +159,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     color: #1F2937;
+    margin-bottom: 30px;
 }
 
 .boxes .container .box h3 {
@@ -165,4 +169,11 @@ ul {
 .boxes .container .box p {
     text-align: center;
     padding: 0 10px;
+}
+
+.boxes .container .box img:hover {
+    background-color: rgba(41, 155, 41, 0.753);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.08);
+    transition-duration: 0.3s;
 }
