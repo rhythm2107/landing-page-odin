@@ -129,7 +129,7 @@ ul {
 .info .container {
     color: #1F2937;
     font-weight: bolder;
-    background-color: fff;
+    background-color: #fff;
     font-size: 28px;
     margin-top: 30px;
     text-align: center;
@@ -140,32 +140,33 @@ ul {
     height: 200px;
     background-color: rgb(218, 197, 197);
     border: 3px solid #3882F6;
-    margin: 0 20px;
     border-radius: 21px;
 }
 
 .boxes .container {
     display: flex;
-    justify-content: center;
     height: 400px;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .boxes .container .box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     color: #1F2937;
-    margin-bottom: 30px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+  
 }
 
 .boxes .container .box h3 {
-    margin: 10px 0 0 0;
+    margin-top: 10px;
 }
 
 .boxes .container .box p {
+    margin-top: 1px;
     text-align: center;
-    padding: 0 10px;
 }
 
 .boxes .container .box img:hover {
