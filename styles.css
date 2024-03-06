@@ -80,6 +80,13 @@ ul {
     box-shadow: rgba(83, 161, 83, 0.35) 0px 5px 15px;
     border: 2px solid rgba(0, 128, 0, 0.356);
     border-radius: 15px;
+    
+}
+
+.hero .container img:hover, img:focus, img:active {
+    box-shadow: rgba(83, 161, 83, 0.35) 0px 5px 25px;
+    transition-duration: 0.9s;
+    
 }
 
 .hero .container h1 {
@@ -243,7 +250,7 @@ ul {
 }
 
 .action .signup-button button:hover, button:focus, button:active {
-    background-color: rgba(9, 48, 9, 0.753);
+    background-color: rgba(41, 155, 41, 0.753);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     transform: scale(1.08);
 }
